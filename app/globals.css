@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global styles */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+.mask-blob {
+  mask-image: url('/blob-mask.svg');
+  -webkit-mask-image: url('/blob-mask.svg');
+  mask-size: cover;
+  -webkit-mask-size: cover;
+}
+
+.mask-drop {
+  mask-image: url('/drop-mask.svg');
+  -webkit-mask-image: url('/drop-mask.svg');
+  mask-size: cover;
+  -webkit-mask-size: cover;
+}
