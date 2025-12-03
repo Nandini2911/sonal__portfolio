@@ -37,7 +37,7 @@ export default function Hero() {
             "
           >
             <span className="block">Sonal</span>
-            <span className="block mt-3">Wankhede</span>
+            <span className="block mt-3"></span>
           </h1>
 
           <div className="mt-6 h-[1.5px] w-[120px] bg-brand-gold/80" />
